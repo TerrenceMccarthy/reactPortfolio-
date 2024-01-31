@@ -4,8 +4,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-//  portfolio, resume
-
 import App from './App';
 import Error from './pages/Error';
 import Home from './pages/Home';
