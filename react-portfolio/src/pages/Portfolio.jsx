@@ -3,7 +3,7 @@ export default function About() {
         <div>
             <h1>Portfolio Page</h1>
             <p>
-                TEST
+             TEST
             </p>
         </div>
     );
