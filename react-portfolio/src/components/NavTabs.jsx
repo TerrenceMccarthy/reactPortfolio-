@@ -1,34 +1,13 @@
 import { Link, useLocation } from 'react-router-dom';
 
-
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
 
 // issues with blurry background image for nav
 
 // issue with moving my nav tabs around with out messing up the nav drop down for smaller screens
 
-const navbarBackground = {
-  backgroundImage: 'url(/src/images/test2.jpg)'
-}
- const navbarStyle = {
-  justifyContent: 'center',
-  display: 'flex'
-  // position: 'absolute',
-  // top: '100px',
-  // right: '100px',
-  // fontSize: '30px',
-  // fontWeight: 'bold'
- }
-
- const navbar = {
-  position: 'fixed',
-  top: '0',
-  width: '100%',
-  zIndex: '100',
- }
 
 function NavTabs() {
   const currentPage = useLocation().pathname;

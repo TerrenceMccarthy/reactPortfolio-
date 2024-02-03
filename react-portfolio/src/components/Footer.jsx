@@ -1,24 +1,100 @@
-const footerStyle = {
-    display: 'flex',
-    justifyContent: 'center',
+import React from 'react';
+import {
+  MDBFooter,
+  MDBContainer,
+  MDBCol,
+  MDBRow,
+  MDBIcon,
+  MDBBtn
+} from 'mdb-react-ui-kit';
 
+// font awesome icons arnt popping up even after ive installed fa and put the link from them in the css
+
+export default function Footer() {
+  return (
+    <MDBFooter className='text-center text-white' style={{ backgroundColor: '#f1f1f1' }}>
+      <MDBContainer className='pt-4'>
+        <section className='mb-4'>
+          <MDBBtn
+            rippleColor="dark"
+            color='link'
+            floating
+            size="lg"
+            className='text-dark m-1'
+            href='#!'
+            role='button'
+          >
+            <MDBIcon fab className='fab fa-facebook-f' />
+          </MDBBtn>
+
+          <MDBBtn
+            rippleColor="dark"
+            color='link'
+            floating
+            size="lg"
+            className='text-dark m-1'
+            href='google.com'
+            role='button'
+          >
+            <MDBIcon fab className='fa-twitter' />
+          </MDBBtn>
+
+          <MDBBtn
+            rippleColor="dark"
+            color='link'
+            floating
+            size="lg"
+            className='text-dark m-1'
+            href='#!'
+            role='button'
+          >
+            <MDBIcon fab className='fa-google' />
+          </MDBBtn>
+
+          <MDBBtn
+            rippleColor="dark"
+            color='link'
+            floating
+            size="lg"
+            className='text-dark m-1'
+            href='#!'
+            role='button'
+          >
+            <MDBIcon fab className='fa-instagram' />
+          </MDBBtn>
+
+          <MDBBtn
+            rippleColor="dark"
+            color='link'
+            floating
+            size="lg"
+            className='text-dark m-1'
+            href='#!'
+            role='button'
+          >
+            <MDBIcon fab className='fa-linkedin' />
+          </MDBBtn>
+
+          <MDBBtn
+            rippleColor="dark"
+            color='link'
+            floating
+            size="lg"
+            className='text-dark m-1'
+            href='#!'
+            role='button'
+          >
+            <MDBIcon fab className='fa-github' />
+          </MDBBtn>
+        </section>
+      </MDBContainer>
+
+      <div className='text-center text-dark p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+        © 2020 Copyright:
+        <a className='text-dark' href='https://mdbootstrap.com/'>
+          MDBootstrap.com
+        </a>
+      </div>
+    </MDBFooter>
+  );
 }
-
-const IconStyle = {
-    width: '20%'
-}
-
-
-function Footer() {
-    return (
-        <span className="navbar-text">
-            <div className="" style={footerStyle}>
-                <a href="mailto:terrencemccarthycode@gmail.com" ><img style={IconStyle} src={'/src/images/gmailIcon.png'} alt="Gmail-icon" /></a>
-                <a href="https://github.com/Tmysterz" ><img style={IconStyle} src={'/src/images/gitIcon.png'} alt="Github-icon" /></a>
-                <a href="https://www.fiverr.com/terrence_mcc?public_mode=true" ><img style={IconStyle} src={'/src/images/fivverIcon.png'} alt="Fivver-icon" /></a>
-            </div>
-        </span>
-    )
-}
-
-export default Footer;

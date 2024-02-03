@@ -12,9 +12,11 @@ function App() {
             <main className="">
                 <Outlet />
             </main>
-            {/* <Footer /> */}
+            <Footer />
         </>
     );
 }
 
 export default App;
+
+
