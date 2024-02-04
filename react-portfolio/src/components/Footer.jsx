@@ -1,100 +1,41 @@
 import React from 'react';
-import {
-  MDBFooter,
-  MDBContainer,
-  MDBCol,
-  MDBRow,
-  MDBIcon,
-  MDBBtn
-} from 'mdb-react-ui-kit';
+import { Container, Row, Col } from 'react-bootstrap';
+import { FaLinkedin, FaGithub, FaStackOverflow } from 'react-icons/fa';
 
-// font awesome icons arnt popping up even after ive installed fa and put the link from them in the css
 
-export default function Footer() {
+const Footer = () => {
   return (
-    <MDBFooter className='text-center text-white' style={{ backgroundColor: '#f1f1f1' }}>
-      <MDBContainer className='pt-4'>
-        <section className='mb-4'>
-          <MDBBtn
-            rippleColor="dark"
-            color='link'
-            floating
-            size="lg"
-            className='text-dark m-1'
-            href='#!'
-            role='button'
-          >
-            <MDBIcon fab className='fab fa-facebook-f' />
-          </MDBBtn>
-
-          <MDBBtn
-            rippleColor="dark"
-            color='link'
-            floating
-            size="lg"
-            className='text-dark m-1'
-            href='google.com'
-            role='button'
-          >
-            <MDBIcon fab className='fa-twitter' />
-          </MDBBtn>
-
-          <MDBBtn
-            rippleColor="dark"
-            color='link'
-            floating
-            size="lg"
-            className='text-dark m-1'
-            href='#!'
-            role='button'
-          >
-            <MDBIcon fab className='fa-google' />
-          </MDBBtn>
-
-          <MDBBtn
-            rippleColor="dark"
-            color='link'
-            floating
-            size="lg"
-            className='text-dark m-1'
-            href='#!'
-            role='button'
-          >
-            <MDBIcon fab className='fa-instagram' />
-          </MDBBtn>
-
-          <MDBBtn
-            rippleColor="dark"
-            color='link'
-            floating
-            size="lg"
-            className='text-dark m-1'
-            href='#!'
-            role='button'
-          >
-            <MDBIcon fab className='fa-linkedin' />
-          </MDBBtn>
-
-          <MDBBtn
-            rippleColor="dark"
-            color='link'
-            floating
-            size="lg"
-            className='text-dark m-1'
-            href='#!'
-            role='button'
-          >
-            <MDBIcon fab className='fa-github' />
-          </MDBBtn>
-        </section>
-      </MDBContainer>
-
-      <div className='text-center text-dark p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        © 2020 Copyright:
-        <a className='text-dark' href='https://mdbootstrap.com/'>
-          MDBootstrap.com
-        </a>
-      </div>
-    </MDBFooter>
+    <footer className="bg-dark text-light py-5">
+      <Container className=''>
+        <Row>
+          <Col md={4}>
+            <h5>Contact Me</h5>
+            <p>Email: Terrncemccarthycode@gmail.com</p>
+            <p>Phone: (682) 429-3347</p>
+          </Col>
+          <Col md={4}>
+            <h5>Follow Me</h5>
+            <p>
+              <a href="https://www.linkedin.com/in/terrence-mccarthy-8ab83b2b2/" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin className="text-light me-2" />
+              </a>
+              <a href="https://github.com/Tmysterz" target="_blank" rel="noopener noreferrer">
+                <FaGithub className="text-light me-2" />
+              </a>
+              <a href="https://stackoverflow.com/users/23343637/terrence-mccarthy/" target="_blank" rel="noopener noreferrer">
+                <FaStackOverflow className="text-light me-2" />
+              </a>
+            </p>
+          </Col>
+          <Col md={4}>
+            <h5>From</h5>
+            <p>Benbrook, Texas, USA</p>
+          </Col>
+        </Row>
+      </Container>
+    </footer>
   );
-}
+};
+
+export default Footer;
+

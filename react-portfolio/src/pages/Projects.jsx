@@ -1,36 +1,40 @@
-import Carousel from 'react-bootstrap/Carousel';
-// import blogImage from './src/images/ExampleCarouselImage';
+import React from 'react';
+import { Carousel, Container } from 'react-bootstrap';
 
-// my projects page is attatched to my header and not loading up properly
+const CarouselData = [
+  { id: 1, title: 'Texas Sports Blog', imageUrl: '../blogImage.jpg', link: 'https://github.com/Tmysterz/blogPost' },
+  { id: 2, title: 'Social API', imageUrl: '../socialAPI.jpg', link: 'https://github.com/Tmysterz/socialAPI' },
+  { id: 3, title: 'Work Scheduler', imageUrl: '../workSchedule.png', link: 'https://github.com/Tmysterz/work-Schedule-Attemp-Two' },
+  // Add more images as needed
+];
 
-function Projects() {
+const ImageCarousel = () => {
   return (
-    <Carousel>
-      <Carousel.Item>
-        {/* <blogImage text="First slide" /> */}
-        <Carousel.Caption>
-          <h3>Texas Sports Blog</h3>
-          <p>Fully functional Texas sports blog. Add a post and add leave a comment!</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        {/* <ExampleCarouselImage text="Second slide" /> */}
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        {/* <ExampleCarouselImage text="Third slide" /> */}
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+    <Container>
+      <Carousel>
+        {CarouselData.map(data => (
+          <Carousel.Item key={data.id}>
+            <a
+              href={data.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none', color: 'black' }} // Remove underline and set text color
+            >
+              <img
+                className="d-block w-100"
+                src={data.imageUrl}
+                alt={data.title}
+                style={{ objectFit: 'cover', height: '800px' }}
+              />
+              <Carousel.Caption style={{color: 'white'}}>
+                <h3>{data.title}</h3>
+              </Carousel.Caption>
+            </a>
+          </Carousel.Item>
+        ))}
+      </Carousel>
+    </Container>
   );
-}
+};
 
-export default Projects;
+export default ImageCarousel;

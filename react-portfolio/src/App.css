@@ -1,0 +1,22 @@
+/* App.css */
+
+.app-container {
+    transition: all 1s ease;
+    /* Optional transition for a smoother effect */
+}
+
+.swirl-animation {
+    animation: swirl 2s ease-in-out;
+    /* Adjust duration and easing as needed */
+}
+
+@keyframes swirl {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+

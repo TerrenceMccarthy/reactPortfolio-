@@ -1,8 +1,5 @@
-// import { Card} from 'react-bootstrap/Card';
 import React from 'react';
 import { Card, Container, Row, Col } from 'react-bootstrap';
-
-
 
 const About = () => {
   return (
