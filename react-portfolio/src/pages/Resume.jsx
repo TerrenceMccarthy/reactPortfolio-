@@ -72,8 +72,7 @@ const Resume = () => {
           <Card>
             <Card.Body>
               <h5>Experience</h5>
-              <p>No current IT experience but multiple depolyed applications on Github</p>
-              {/* Add more work experience */}
+              <p>No current IT work experience but multiple depolyed applications on Github</p>
             </Card.Body>
           </Card>
         </Col>
