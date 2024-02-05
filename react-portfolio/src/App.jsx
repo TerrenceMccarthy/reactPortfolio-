@@ -11,8 +11,6 @@ function App() {
     
     return (
         <>
-            {/* <Header /> */}
-
             <main style={appColor}>
                 <Header />
 
@@ -20,9 +18,6 @@ function App() {
 
                 <Footer />
             </main>
-
-            {/* <div className='content'><Footer /></div> */}
-
         </>
     );
 }

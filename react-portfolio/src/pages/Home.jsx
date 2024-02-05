@@ -1,24 +1,38 @@
 import React, { useState, useEffect } from 'react';
-import { Container } from 'react-bootstrap';
-import '../App.css'; // Import your CSS file for styling
 
-const App = () => {
-  const [isSwirling, setIsSwirling] = useState(false);
+const HomePage = () => {
+  const [displayText, setDisplayText] = useState('');
 
   useEffect(() => {
-    // Trigger the swirling animation after the component mounts
-    setIsSwirling(true);
-  }, []);
+    const originalText = 'Welcome to my personal portfolio webpage';
+    let index = 0;
+
+    const intervalId = setInterval(() => {
+      if (index <= originalText.length) {
+        setDisplayText(originalText.slice(0, index));
+        index += 1;
+      } else {
+        clearInterval(intervalId);
+      }
+    }, 100); 
+
+    return () => {
+      clearInterval(intervalId); 
+    };
+  }, []); 
+
+  const textStyle = {
+    textAlign: 'center',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  }
 
   return (
-    <div className={`app-container ${isSwirling ? 'swirl-animation' : ''}`}>
-      <Container>
-        <h1>Welcome to my personal portfolio webpage!</h1>
-      </Container>
+    <div style={textStyle}>
+      <h1>{displayText}</h1>
     </div>
   );
 };
 
-export default App;
-
-
+export default HomePage;

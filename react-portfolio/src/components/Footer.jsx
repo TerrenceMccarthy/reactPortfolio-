@@ -6,7 +6,7 @@ import '../App.css';
 const Footer = () => {
   return (
     <footer className="bg-dark text-light py-5 footer">
-      <Container className=''>
+      <Container>
         <Row>
           <Col md={4}>
             <h5>Contact Me</h5>
