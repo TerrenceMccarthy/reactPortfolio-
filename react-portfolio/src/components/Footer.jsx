@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaLinkedin, FaGithub, FaStackOverflow } from 'react-icons/fa';
-
+import '../App.css';
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-light py-5">
+    <footer className="bg-dark text-light py-5 footer">
       <Container className=''>
         <Row>
           <Col md={4}>

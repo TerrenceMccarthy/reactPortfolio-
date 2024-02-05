@@ -2,9 +2,12 @@ import React from 'react';
 import { Card, Container, Row, Col } from 'react-bootstrap';
 
 const About = () => {
+  const appColor = {
+    background: '#bde0fe'
+  }
   return (
     <Container>
-      <Card className="mt-5">
+      <Card className="mt-5 mb-5" style={appColor}>
         <Card.Body>
           <Row>
             <Col md={4}>
@@ -29,7 +32,7 @@ const About = () => {
                   bootcamp I intend to get a tech job and resume my computer science degree.
                 </p>
                 <p>
-                  My end goal is still up in the air! Although I know I want to continue on the path of software development and being able to 
+                  My end goal is still up in the air! Although I know I want to continue on the path of software development and being able to
                   create. Some paths that have stuck out to me are things like AI, coding in Aviation, Blockchain and game development.
                 </p>
               </Card.Body>

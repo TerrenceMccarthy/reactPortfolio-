@@ -1,16 +1,19 @@
-// Resume.jsx
-
-// Resume.jsx
-
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 
+
+// find exact years for education tabs
+
 const Resume = () => {
+  const appColor = {
+    background: '#bde0fe'
+  }
+  
   return (
     <Container className="my-5">
       <Row>
         <Col md={8}>
-          <Card>
+          <Card style={appColor}> 
             <Card.Body>
               <h2>Terrence McCarthy</h2>
               <p>Email: Terrencemccarthycode@gmail.com</p>
@@ -20,7 +23,7 @@ const Resume = () => {
         </Col>
 
         <Col md={4}>
-          <Card>
+          <Card style={appColor}>
             <Card.Body>
               <h5>Skills</h5>
               <Row>
@@ -56,7 +59,7 @@ const Resume = () => {
 
       <Row className="mt-4">
         <Col>
-          <Card>
+          <Card style={appColor}>
             <Card.Body>
               <h5>Education</h5>
               <p>Associate degree from TCC - FIND EXACT YEAR</p>
@@ -69,7 +72,7 @@ const Resume = () => {
 
       <Row className="mt-4">
         <Col>
-          <Card>
+          <Card style={appColor}>
             <Card.Body>
               <h5>Experience</h5>
               <p>No current IT work experience but multiple depolyed applications on Github</p>

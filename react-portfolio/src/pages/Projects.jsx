@@ -9,9 +9,17 @@ const CarouselData = [
 ];
 
 const ImageCarousel = () => {
+  const carouselStyle = {
+    border: '15px solid #ddd', // Add your desired border style and color
+    borderRadius: '1px', // Optional: Add border radius for rounded corners
+    overflow: 'hidden', // Hide overflow to prevent image overflow beyond the border
+    width: '100%',
+    margin: '0 auto'
+  };
+  
   return (
-    <Container>
-      <Carousel>
+    <Container className='mt-5 mb-5' >
+      <Carousel style={carouselStyle}>
         {CarouselData.map(data => (
           <Carousel.Item key={data.id}>
             <a

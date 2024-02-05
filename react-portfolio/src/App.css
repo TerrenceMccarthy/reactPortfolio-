@@ -20,10 +20,29 @@
     }
 }
 
-/* styles.css */
+/* nav.css */
 
 .white-text {
     color: white !important;
-  }
-  
+}
 
+/* styles.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.content {
+    flex: 1;
+    /* This ensures that the content area takes up remaining space */
+}
+
+.footer {
+    background-color: #f8f9fa;
+    /* Set your desired background color */
+    padding: 20px;
+    text-align: center;
+}
