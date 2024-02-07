@@ -11,25 +11,25 @@ function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
-    <Navbar expand="lg" className="bg-secondary bg-gradient">
+    <Navbar expand="lg" className="bg-dark text-light">
       <Container >
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
             <Nav.Link className="white-text">
-              <Link to={'/'} className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>Home</Link>
+              <Link to={'/'} className={`${currentPage === '/' ? 'nav-link active' : 'nav-link'} white-text`}>Home</Link>
             </Nav.Link>
             <Nav.Link className="white-text">
-              <Link to={'/About'} className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}>About Me</Link>
+              <Link to={'/About'} className={`${currentPage === '/About' ? 'nav-link active' : 'nav-link'} white-text`}>About Me</Link>
             </Nav.Link>
             <Nav.Link className="white-text">
-              <Link to={'/Project'} className={currentPage === '/Project' ? 'nav-link active' : 'nav-link'}>Projects</Link>
+              <Link to={'/Project'} className={`${currentPage === '/Project' ? 'nav-link active' : 'nav-link'} white-text`}>Projects</Link>
             </Nav.Link>
             <Nav.Link className="white-text">
-              <Link to={'/Resume'} className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}>Resume</Link>
+              <Link to={'/Resume'} className={`${currentPage === '/Resume' ? 'nav-link active' : 'nav-link'} white-text`}>Resume</Link>
             </Nav.Link>
             <Nav.Link className="white-text">
-              <Link to={'/Contact'} className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}>Contact</Link>
+              <Link to={'/Contact'} className={`${currentPage === '/Contact' ? 'nav-link active' : 'nav-link'} white-text`}>Contact</Link>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

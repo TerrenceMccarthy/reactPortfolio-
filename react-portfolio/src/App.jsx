@@ -11,7 +11,7 @@ function App() {
     
     return (
         <>
-            <main style={appColor}>
+            <main style={appColor} className='main'>
                 <Header />
 
                 <Outlet />
