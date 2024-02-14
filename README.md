@@ -48,4 +48,8 @@
 
   ## Deployed application
 
-  [reactPortfolio]()
+  [reactPortfolio](https://main--gregarious-beignet-f495fd.netlify.app/)
+
+  ## Github repo
+
+  [Github](https://github.com/Tmysterz/reactPortfolio-)
