@@ -22,9 +22,6 @@ const Footer = () => {
               <a href="https://github.com/Tmysterz" target="_blank" rel="noopener noreferrer">
                 <FaGithub className="text-light me-2" />
               </a>
-              <a href="https://stackoverflow.com/users/23343637/terrence-mccarthy/" target="_blank" rel="noopener noreferrer">
-                <FaStackOverflow className="text-light me-2" />
-              </a>
             </p>
           </Col>
           <Col md={4}>
