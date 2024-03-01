@@ -80,6 +80,16 @@ const Resume = () => {
           </Card>
         </Col>
       </Row>
+      <Row className="mt-4">
+        <Col>
+          <Card style={appColor}>
+            <Card.Body>
+              <h5>Full Resume</h5>
+              <p><a href='https://gyazo.com/e2383b71d7b9dcae234417127c8e95c9'>Click Me to view my full resume!</a></p>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
     </Container>
   );
 };
