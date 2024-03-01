@@ -64,7 +64,7 @@ const Resume = () => {
               <h5>Education</h5>
               <p>Associate degree from TCC - 2021</p>
               <p>Started Computer Science degree classes from UTA - Last attended in 2023</p>
-              <p>Enrolled in SMU Full Stack coding bootcamp - Current</p>
+              <p>Certificate from SMU Full Stack coding bootcamp - 2024</p>
             </Card.Body>
           </Card>
         </Col>
@@ -75,7 +75,9 @@ const Resume = () => {
           <Card style={appColor}>
             <Card.Body>
               <h5>Experience</h5>
-              <p>No current IT work experience but have multiple depolyed applications on Github</p>
+              <p>Beginning in free lance full stack web development - Current </p>
+              <p>Evolution Moving Company, Fort Worth (Crew Lead) - March 2020 to January 2024</p>
+              <p>Multiple depolyed applications on Github</p>
             </Card.Body>
           </Card>
         </Col>
