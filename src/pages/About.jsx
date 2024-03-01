@@ -11,12 +11,12 @@ const About = () => {
         <Card.Body>
           <Row>
             <Col md={4}>
-              <img src="../selfImg.jpg" alt="Image of my self" className="img-fluid" />
+              <img src="../selfImg.JPG" alt="Image of my self" className="img-fluid" />
             </Col>
             <Col md={8}>
               <Card.Body className='fs-5'>
                 <p>
-                  Hello, My name is Terrence McCarthy and I am a 24 years old and learning to be a full stack developer. I have always loved being on my computer
+                  Hello, My name is Terrence McCarthy and I am a 24 years old full stack developer. I have always loved being on my computer
                   and being able to create so coding was the perfect path for me.
                 </p>
                 <p>
@@ -28,7 +28,7 @@ const About = () => {
                   I started my pursuit of learning how to code about 2 years ago when I completed my associate degree from TCC and started
                   taking my first coding related classes. I loved the classes but my current job as a crew lead for a moving company caused
                   me to have to go part time and not get my degree as fast as I would have liked. As a result I put my degree on pause to
-                  enroll in a full stack coding boot camp so I can get my foot in the door of the tech world. Once I have completed the
+                  enroll in a full stack coding boot camp so I can get my foot in the door of the tech world. Now that I have completed the
                   bootcamp I intend to get a tech job and resume my computer science degree.
                 </p>
                 <p>
