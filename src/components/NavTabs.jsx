@@ -5,13 +5,11 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import '../App.css';
 
-//  why is my text not changing to white? even after importing css that has !important
-
 function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
-    <Navbar expand="lg" className="bg-dark text-light">
+    <Navbar expand="lg" className="bg-dark text-light" variant='dark'>
       <Container >
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
