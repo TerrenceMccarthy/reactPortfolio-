@@ -63,7 +63,7 @@ const Resume = () => {
             <Card.Body>
               <h5>Education</h5>
               <p>Associate degree from TCC - 2021</p>
-              <p>Started Computer Science degree classes from UTA - Last attended in 2023</p>
+              <p>Started Computer Science degree classes from UTA - Last attended in 2023 (Current)</p>
               <p>Certificate from SMU Full Stack coding bootcamp - 2024</p>
             </Card.Body>
           </Card>
