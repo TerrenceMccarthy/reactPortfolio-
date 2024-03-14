@@ -87,7 +87,7 @@ const Resume = () => {
           <Card style={appColor}>
             <Card.Body>
               <h5>Full Resume</h5>
-              <p><a href='/public/terrenceResume (2).pdf' download={'terrenceResume (2).pdf'}>Click Me to download my full resume!</a></p>
+              <p><a href='/public/updatedResume (8).pdf' download={'updatedResume (8).pdf'}>Click Me to download my full resume!</a></p>
             </Card.Body>
           </Card>
         </Col>
