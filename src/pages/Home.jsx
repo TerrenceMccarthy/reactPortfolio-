@@ -4,7 +4,7 @@ const HomePage = () => {
   const [displayText, setDisplayText] = useState('');
 
   useEffect(() => {
-    const originalText = 'Welcome to my personal portfolio webpage';
+    const originalText = 'Welcome to my personal portfolio webpage that i created using react';
     let index = 0;
 
     const intervalId = setInterval(() => {
