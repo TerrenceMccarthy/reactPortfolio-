@@ -14,7 +14,7 @@ const Footer = () => {
             <p>Phone: (682) 429-3347</p>
           </Col>
           <Col md={4}>
-            <h5>Follow Me</h5>
+            <h5>My Sites</h5>
             <p>
               <a href="https://www.linkedin.com/in/terrence-mccarthy-8ab83b2b2/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className="text-light me-2" />

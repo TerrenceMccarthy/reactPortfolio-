@@ -62,10 +62,10 @@ const Resume = () => {
           <Card style={appColor}>
             <Card.Body>
               <h5>Education</h5>
-              <p>Associate degree from TCC - 2021</p>
-              <p>Started Computer Science degree classes from UTA - Last attended in 2023 (Is now current after completing SMU bootcamp)</p>
-              <p>Harvard CS50x certificate - (Current)</p>
+              <p>Pursuing Computer Science bachelors degree from UTA - Current</p>
+              <p>Harvard CS50x certificate - Current</p>
               <p>Certificate from SMU Full Stack coding bootcamp - 2024</p>
+              <p>Associate degree from TCC - 2021</p>
             </Card.Body>
           </Card>
         </Col>
@@ -76,9 +76,9 @@ const Resume = () => {
           <Card style={appColor}>
             <Card.Body>
               <h5>Experience</h5>
-              <p>Beginning in free lance full stack web development - Current </p>
+              <p>free lance full stack web development - Current </p>
+              <p>Uber Eats delivery driver - Current</p>
               <p>Evolution Moving Company, Fort Worth (Crew Lead) - March 2020 to January 2024</p>
-              <p>Multiple depolyed applications on Github</p>
             </Card.Body>
           </Card>
         </Col>
