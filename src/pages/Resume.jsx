@@ -64,7 +64,7 @@ const Resume = () => {
               <h5>Education</h5>
               <p>Pursuing Computer Science bachelors degree from UTA - 3.4 GPA - Current</p>
               <p>Harvard CS50x certificate - Current</p>
-              <p>Certificate from SMU Full Stack coding bootcamp - 2024</p>
+              <p>Certificate from SMU Full Stack coding bootcamp - %98.73 - 2024</p>
               <p>Associate degree from TCC - 2.6 GPA - 2021</p>
             </Card.Body>
           </Card>
