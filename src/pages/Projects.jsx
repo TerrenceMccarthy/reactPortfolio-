@@ -5,7 +5,12 @@ const CarouselData = [
   { id: 1, title: 'Texas Sports Blog', imageUrl: '../blogImage.jpg', link: 'https://github.com/Tmysterz/blogPost' },
   { id: 2, title: 'Social API', imageUrl: '../socialAPI.jpg', link: 'https://github.com/Tmysterz/socialAPI' },
   { id: 3, title: 'Work Scheduler', imageUrl: '../workSchedule.png', link: 'https://github.com/Tmysterz/work-Schedule-Attemp-Two' },
-  { id: 4, title: 'Sky Social', imageUrl: '../SkySocial.png', link: 'https://github.com/Tmysterz/SkySocial' },
+  { id: 4, title: 'Sky Social', imageUrl: '../skySocialFSS.jpg', link: 'https://github.com/Tmysterz/SkySocial' },
+  { id: 5, title: 'Book Search', imageUrl: '../bookSearchSS.jpg', link: 'https://github.com/Tmysterz/bookSearchMERN' },
+  { id: 6, title: 'EcommerceAPI', imageUrl: '../ecommerceAPI.jpg', link: 'https://github.com/Tmysterz/socialAPI' },
+  { id: 7, title: 'Logo Generator', imageUrl: '../logoMakerSS.jpg', link: 'https://github.com/Tmysterz/logoGenerator' },
+  { id: 8, title: 'README.md Generator', imageUrl: '../readmeGeneratorSS.png', link: 'https://github.com/Tmysterz/readmeGenerator' },
+  { id: 9, title: 'Random Password Generator', imageUrl: '../randomPasswordSS.jpg', link: 'https://github.com/Tmysterz/Random-Password-Generator' },
 ];
 
 const ImageCarousel = () => {
