@@ -29,11 +29,11 @@ const About = () => {
                   taking my first coding related classes. I loved the classes but my current job as a crew lead for a moving company caused
                   me to have to go part time and not get my degree as fast as I would have liked. As a result I put my degree on pause to
                   enroll in a full stack coding boot camp so I can get my foot in the door of the tech world. Now that I have completed the
-                  bootcamp I intend to get a tech job and resume my computer science degree.
+                  bootcamp I intend to get a technology related job and resume my computer science degree.
                 </p>
                 <p>
                   My end goal is still up in the air! Although I know I want to continue on the path of software development and being able to
-                  create. Some paths that have stuck out to me are things like AI, coding in Aviation, Blockchain and game development.
+                  create. Some paths that have stuck out to me are things like AI, Blockchain and game development.
                 </p>
               </Card.Body>
             </Col>

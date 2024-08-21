@@ -45,9 +45,9 @@ const Resume = () => {
 
                 <Col xs={4}>
                   <ul>
-                    <li>Testing</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
+                    <li>Python</li>
+                    <li>Flask</li>
+                    <li>NoSQL</li>
                   </ul>
                 </Col>
 
@@ -63,9 +63,9 @@ const Resume = () => {
             <Card.Body>
               <h5>Education</h5>
               <p>Pursuing Computer Science bachelors degree from UTA - 3.4 GPA - Current</p>
-              <p>Harvard CS50x certificate - Current</p>
+              <p>Harvard CS50x certificate - Completed 08/2024</p>
               <p>Certificate from SMU Full Stack coding bootcamp - %98.73 - 2024</p>
-              <p>Associate degree from TCC - 2.6 GPA - 2021</p>
+              <p>Associate degree from TCC - 2021</p>
             </Card.Body>
           </Card>
         </Col>
@@ -76,8 +76,9 @@ const Resume = () => {
           <Card style={appColor}>
             <Card.Body>
               <h5>Experience</h5>
-              <p>free lance full stack web development - Current </p>
-              <p>Uber Eats delivery driver - Current</p>
+              <p>Quality Control Researcher at ServiceLink - July 2024 to Current</p>
+              <p>free lance full stack web development - June 2024 to Current </p>
+              <p>Uber Eats delivery driver - July 2023 to July 2024</p>
               <p>Evolution Moving Company, Fort Worth (Crew Lead) - March 2020 to January 2024</p>
             </Card.Body>
           </Card>
