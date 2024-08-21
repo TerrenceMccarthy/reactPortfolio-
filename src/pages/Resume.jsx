@@ -89,7 +89,7 @@ const Resume = () => {
           <Card style={appColor}>
             <Card.Body>
               <h5>Full Resume</h5>
-              <p><a href='https://docs.google.com/document/d/1hViApbiCHLunWTxOtTL0UaQuC6lwMpfYAzatJVNgxU4/edit#heading=h.cyduej5y5z6g'>Click here to view my full resume!</a></p>
+              <p><a href='https://docs.google.com/document/d/1g3KTgLlkSR58YF4g-v9iEIrGz82IN-yiTAHTos6dFsk/edit'>Click here to view my full resume!</a></p>
             </Card.Body>
           </Card>
         </Col>
