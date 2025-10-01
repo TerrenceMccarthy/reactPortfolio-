@@ -11,7 +11,7 @@ const About = () => {
         <Card.Body>
           <Row>
             <Col md={4}>
-              <img src="../selfImg.JPG" alt="Image of my self" className="img-fluid" />
+              <img src="../profilePic2025.JPG" alt="Image of my self" className="img-fluid" />
             </Col>
             <Col md={8}>
               <Card.Body className='fs-5'>
