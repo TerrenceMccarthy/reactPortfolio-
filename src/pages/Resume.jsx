@@ -62,7 +62,7 @@ const Resume = () => {
           <Card style={appColor}>
             <Card.Body>
               <h5>Education</h5>
-              <p>Pursuing Computer Science bachelors degree from UTA - 3.4 GPA - Current</p>
+              <p>Bachelors of Science in Computer Science (3.4 GPA) - Graduating in Sping 2027</p>
               <p>Harvard CS50x certificate - Completed 08/2024</p>
               <p>Certificate from SMU Full Stack coding bootcamp - %98.73 - 2024</p>
               <p>Associate degree from TCC - 2021</p>

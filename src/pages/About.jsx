@@ -16,7 +16,7 @@ const About = () => {
             <Col md={8}>
               <Card.Body className='fs-5'>
                 <p>
-                  Hello, My name is Terrence McCarthy and I am a 24 years old full stack developer. I have always loved being on my computer
+                  Hello, My name is Terrence McCarthy and I am a 25 years old student. I have always loved being on my computer
                   and being able to create so coding was the perfect path for me.
                 </p>
                 <p>
@@ -25,11 +25,11 @@ const About = () => {
                   an introvert that loves to stay home but I do enjoy meeting new people that share the same interest as me.
                 </p>
                 <p>
-                  I started my pursuit of learning how to code about 2 years ago when I completed my associate degree from TCC and started
+                  I started my pursuit of learning how to code about 3 years ago when I completed my associate degree from TCC and started
                   taking my first coding related classes. I loved the classes but my current job as a crew lead for a moving company caused
                   me to have to go part time and not get my degree as fast as I would have liked. As a result I put my degree on pause to
                   enroll in a full stack coding boot camp so I can get my foot in the door of the tech world. Now that I have completed the
-                  bootcamp I intend to get a technology related job and resume my computer science degree.
+                  bootcamp in 2024 I am back on track to graduate with my Computer Science degree in March 2027 from UTA.
                 </p>
                 <p>
                   My end goal is still up in the air! Although I know I want to continue on the path of software development and being able to
