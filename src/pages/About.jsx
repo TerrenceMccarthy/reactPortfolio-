@@ -32,6 +32,13 @@ const About = () => {
                   bootcamp in 2024 I am back on track to graduate with my Computer Science degree in March 2027 from UTA.
                 </p>
                 <p>
+                  Outside of class, I like building practical tools that make life easier—mostly React/Vite front ends with a sprinkle of Node/Express 
+                  and SQL when needed. I’ve shipped small apps to Netlify, automated reports with Power Automate, and spent plenty of time debugging 
+                  low-level C assignments, which taught me to be patient and detail-oriented. I enjoy turning messy, real-world constraints into clean, 
+                  simple interfaces and I care a lot about readable code, Git hygiene, and good documentation. When I’m not coding, I’m usually playing with 
+                  my dogs, grilling, or watching football.
+                </p>
+                <p>
                   My end goal is still up in the air! Although I know I want to continue on the path of software development and being able to
                   create. Some paths that have stuck out to me are things like AI, Blockchain and game development.
                 </p>
